@@ -27,7 +27,7 @@ class SecretConfig {
 
 Future<SecretConfig> loadSecretConfigOrDefault() async {
   try {
-    const path = '/etc/sustainify/secrets/sustainify.json';
+    const path = '/etc/sustainity/secrets/sustainity.json';
     var file = io.File(path);
     if (file.existsSync()) {
       print("Loading config from a file");
@@ -40,7 +40,7 @@ Future<SecretConfig> loadSecretConfigOrDefault() async {
   }
 
   try {
-    const env = 'SUSTAINIFY_CONFIG';
+    const env = 'SUSTAINITY_CONFIG';
     if (io.Platform.environment.containsKey(env)) {
       print("Loading config from env variable");
       var contents = io.Platform.environment[env];

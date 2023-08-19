@@ -19,7 +19,7 @@ class Config {
   Config.release()
       : this(
           backend_scheme: 'https',
-          backend_host: 'api.sustainify.dev',
+          backend_host: 'api.sustainity.dev',
           backend_port: 443,
         );
 

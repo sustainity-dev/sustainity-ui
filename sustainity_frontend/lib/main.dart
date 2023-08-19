@@ -2380,7 +2380,7 @@ class _SustainityFrontendState extends State<SustainityFrontend>
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Sustainify',
+        title: 'Sustainity',
         theme: ThemeData(
           cardColor: Colors.white,
           scaffoldBackgroundColor: Colors.grey[200],
